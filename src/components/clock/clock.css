@@ -2,11 +2,14 @@
 
 .clock {
 	position: relative;
-  padding-top: 1em;
+  padding-top: 1.5em;
 	top: 0; left: 0; bottom: 0; right: 0;
 	font-family: 'Pacifico';
 	text-align: center;
 	text-shadow: 0.1em 0.1em 0.1em #aaa;
-	color: blue;
 	font-size: 9em;
+}
+
+.clock-color {
+  color: blue;
 }

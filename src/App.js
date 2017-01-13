@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import ColorUtils from './util/ColorUtils';
 import Clock from './components/clock/Clock';
+import Header from './components/header/Header';
 
 class App extends Component {
 
@@ -26,6 +27,7 @@ class App extends Component {
   render() {
     return (
       <div className="App" style={this.state.style} >
+        <Header />
         <Clock />
       </div>
     );

@@ -8,7 +8,7 @@ While looking through the React documentation, specifically the [state and lifec
 ## Instructions
 1. clone the repo
 2. run the following command
-```
-npm install && npm start
-```
+  ```
+  npm install && npm start
+  ```
 3. profit?

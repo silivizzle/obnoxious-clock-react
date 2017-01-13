@@ -1,27 +1,27 @@
 import React, { Component } from 'react';
 import './App.css';
-import { colorUtils } from './util/ColorUtils';
+import ColorUtils from './util/ColorUtils';
 import Clock from './components/clock/Clock';
 
 class App extends Component {
 
   constructor() {
     super();
-    this.state = { style: { 'background-color':  "white" } };
+    this.state = { style: { backgroundColor:  "white" } };
   }
 
   componentDidMount() {
     this.colorInterval = setInterval(() =>
-      this.color(colorUtils.assignRandomColor()), 1000);
+      this.color(ColorUtils.assignRandomColor()), 1000);
   }
 
   color(color) {
-    this.setState({ style: { 'background-color': color } });
+    this.setState({ style: { backgroundColor: color } });
   }
 
   render() {
     return (
-      <div className="App" style={this.state.style}>
+      <div className="App" style={this.state.style} >
         <Clock />
       </div>
     );

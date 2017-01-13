@@ -1,20 +1,16 @@
 import colors from './colors';
 
+const assignColor = (arr, index) => {
+  return arr[index];
+}
+
 class ColorUtils {
 
-  constructor() {
-    this.colorArr = colors.names;
-  }
-
-  assignRandomColor() {
+  static assignRandomColor() {
     let index = Math.floor(Math.random() * (147 - 1) + 1);
-    return this.assignColor(this.colorArr, index);
-  }
-
-  assignColor(arr, index) {
-    return arr[index];
+    return assignColor(colors.names, index);
   }
 
 }
 
-export const colorUtils = new ColorUtils();
+export default ColorUtils;

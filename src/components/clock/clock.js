@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './clock.css';
-import {colorUtils} from '../../util/ColorUtils';
+import ColorUtils from '../../util/ColorUtils';
 
 class Clock extends Component {
   constructor(props) {
@@ -11,7 +11,7 @@ class Clock extends Component {
   componentDidMount() {
     this.timerID = setInterval(() => this.tick(), 1000);
     this.colorInterval = setInterval(() =>
-      this.color(colorUtils.assignRandomColor()), 1000);
+      this.color(ColorUtils.assignRandomColor()), 1000);
   }
 
   componentWillUnmount() {

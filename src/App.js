@@ -15,6 +15,10 @@ class App extends Component {
       this.color(ColorUtils.assignRandomColor()), 1000);
   }
 
+  componentWillUnmount() {
+    clearInterval(this.colorInterval);
+  }
+
   color(color) {
     this.setState({ style: { backgroundColor: color } });
   }

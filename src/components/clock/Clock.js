@@ -16,6 +16,7 @@ class Clock extends Component {
 
   componentWillUnmount() {
     clearInterval(this.timerID);
+    clearInterval(this.colorInterval);
   }
 
   color(color) {

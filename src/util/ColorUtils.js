@@ -17,4 +17,4 @@ class ColorUtils {
 
 }
 
-export let colorUtils = new ColorUtils();
+export const colorUtils = new ColorUtils();

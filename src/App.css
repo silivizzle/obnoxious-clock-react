@@ -1,4 +1,7 @@
 .App {
   text-align: center;
   height: inherit;
+  display: flex column;
+  width: 100%;
 }
+

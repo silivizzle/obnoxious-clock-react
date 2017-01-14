@@ -1,6 +1,9 @@
 .navbar {
   height: 3em;
   background-color: hotpink;
+  display: flex;
+  flex-flow: row;
+  align-content: flex-start;
 }
 
 .title {
@@ -9,5 +12,5 @@
   padding-left: 3em;
   padding-top: .5em;
   font-size: 1.5em;
-  font-family: monofur;
+  font-family: monofur, Courier New, Courier, monospace;
 }

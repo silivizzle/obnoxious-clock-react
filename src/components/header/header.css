@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
+
 .navbar {
   height: 3em;
   background-color: hotpink;
@@ -12,5 +14,5 @@
   padding-left: 3em;
   padding-top: .5em;
   font-size: 1.5em;
-  font-family: monofur, Courier New, Courier, monospace;
+  font-family: 'Reenie Beanie', 'Courier New', Courier, monospace;
 }

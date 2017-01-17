@@ -33,7 +33,7 @@ class Clock extends Component {
         {this.state.date.toLocaleTimeString()}
       </div>
     );
-  } vbfgvrqw3ww
+  } 
 }
 
 export default Clock;

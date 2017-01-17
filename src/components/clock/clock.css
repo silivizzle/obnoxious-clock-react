@@ -1,11 +1,11 @@
-/*@import url('https://fonts.googleapis.com/css?family=Pacifico');*/
+@import url('https://fonts.googleapis.com/css?family=Nova+Mono');
 
 .clock {
 	flex-direction: row;
 	position: relative;
   padding-top: 1.5em;
 	top: 0; left: 0; bottom: 0; right: 0;
-	font-family: monofur, Courier New, Courier, monospace;
+	font-family: 'Nova Mono', 'Courier New', Courier, monospace;
 	text-align: center;
 	text-shadow: 0.1em 0.1em 0.1em #a090db;
 	font-size: 9em;

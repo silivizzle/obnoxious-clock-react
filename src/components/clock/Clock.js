@@ -11,7 +11,7 @@ class Clock extends Component {
   componentDidMount() {
     this.timerID = setInterval(() => this.tick(), 1000);
     this.colorInterval = setInterval(() =>
-      this.color(ColorUtils.assignRandomColor()), 1000);
+      this.color(ColorUtils.assignRandomColor()), 300);
   }
 
   componentWillUnmount() {
@@ -33,7 +33,7 @@ class Clock extends Component {
         {this.state.date.toLocaleTimeString()}
       </div>
     );
-  } 
+  }
 }
 
 export default Clock;

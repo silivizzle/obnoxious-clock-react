@@ -13,7 +13,7 @@ class App extends Component {
 
   componentDidMount() {
     this.colorInterval = setInterval(() =>
-      this.color(ColorUtils.assignRandomColor()), 1000);
+      this.color(ColorUtils.assignRandomColor()), 300);
   }
 
   componentWillUnmount() {
